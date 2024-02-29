@@ -13,7 +13,7 @@ export default function Player() {
       <h2>Welcome {enteredPlayerName ?? "unknown entity"}</h2>
       <p>
         <input ref={playerName} type="text" />
-        <button onClick={handleClick}>Set Name</button>
+        <button onClick={handleClick}>이름 변경</button>
       </p>
     </section>
   );
